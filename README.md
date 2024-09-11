@@ -25,3 +25,17 @@ the first argument is the group name
 the second argument is the a function that contains the expectations to test
 we can have multiple describe in single test file and also we can create nested describes
 --------------------------------------
+
+*-------------------------------
+File name Conventions
+
+*Files with  .test.js or .test.tsx suffix
+*Files with .spec.js or .spec.tsx suffix
+*Files iwth .js or .tsx suffic in __tests__ folders.
+
+the recommomented way is always put you tests next to the code they are testing so that relative imports are shorter.
+--------------------------------------
+
+we also use the "it" insted of "test" to create test
+test.skip == fit
+test.only == xit
