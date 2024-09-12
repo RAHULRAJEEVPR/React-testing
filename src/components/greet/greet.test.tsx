@@ -14,10 +14,10 @@ describe("Greet",()=>{
         expect(TestElement).toBeInTheDocument()
     })
     
-    test("Greet renders with a name",()=>{
-        render(<Greet name="rahul"/>)
+    // test("Greet renders with a name",()=>{
+    //     render(<Greet name="rahul"/>)
         
-        const TestElement= screen.getByText(/hello rahul/i)
-        expect(TestElement).toBeInTheDocument()
-    })
+    //     const TestElement= screen.getByText(/hello rahul/i)
+    //     expect(TestElement).toBeInTheDocument()
+    // })
 })

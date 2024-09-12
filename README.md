@@ -39,3 +39,14 @@ the recommomented way is always put you tests next to the code they are testing 
 we also use the "it" insted of "test" to create test
 test.skip == fit
 test.only == xit
+
+-------------------------
+Code Coverage
+
+A metric that can help you understand how much of your software code is tested
+1.statement coverage:how may of the statements in the software code have been executed
+2.Branch Coverage: how many of the branches of the control structures (if staement of instance) have excuted
+3.function coverage :how many of the functions defined have been called 
+4.line coverage: how many of lines of source code have been tested
+command - npm run test -- --coverage
+-------------

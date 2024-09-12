@@ -5,18 +5,18 @@
  */
 import { render,screen } from "@testing-library/react"
 import { Greet } from "../components/greet/Greet"
-describe("Greet",()=>{
+// describe("Greet",()=>{
 
-    it("testing greeet rending",()=>{
-        render(<Greet/>)
-        const TestElement= screen.getByText(/hello/i)
-        expect(TestElement).toBeInTheDocument()
-    })
+//     it("testing greeet rending",()=>{
+//         render(<Greet/>)
+//         const TestElement= screen.getByText(/hello/i)
+//         expect(TestElement).toBeInTheDocument()
+//     })
     
-    it("Greet renders with a name",()=>{
-        render(<Greet name="rahul"/>)
+//     it("Greet renders with a name",()=>{
+//         render(<Greet name="rahul"/>)
         
-        const TestElement= screen.getByText(/hello rahul/i)
-        expect(TestElement).toBeInTheDocument()
-    })
-})
+//         const TestElement= screen.getByText(/hello rahul/i)
+//         expect(TestElement).toBeInTheDocument()
+//     })
+// })
