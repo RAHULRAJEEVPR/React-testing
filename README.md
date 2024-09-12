@@ -50,3 +50,10 @@ A metric that can help you understand how much of your software code is tested
 4.line coverage: how many of lines of source code have been tested
 command - npm run test -- --coverage
 -------------
+
+------------------
+Assertions
+
+when writing tests, we often need to check that values meet certain conditons
+asserions decide if a test passes or fails
+--------------------------------
